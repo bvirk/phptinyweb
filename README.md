@@ -3,9 +3,7 @@
 ### Descriptions in:
 
 - [some php.ini, ssh,ftp](doc/someUbuntuSetup.md)
-
-- pageRendering.md 
-    - basic urlrewite and page loading mechanism 
+- [basic urlrewite and page loading mechanism](doc/pageRendering.md) 
 
 
 ### setup after download
