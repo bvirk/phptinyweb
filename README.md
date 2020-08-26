@@ -2,7 +2,7 @@
 
 ### Descriptions in:
 
-- [some php.ini, ssh,ftp](blob/master/doc/someUbuntuSetup.md)
+- [some php.ini, ssh,ftp](doc/someUbuntuSetup.md)
 
 - pageRendering.md 
     - basic urlrewite and page loading mechanism 
