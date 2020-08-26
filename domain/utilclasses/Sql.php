@@ -12,7 +12,7 @@ class Sql {
         if (!$pdoObj) {
             //echo "************* INITIALIZING DATABASE CONNECTION ******************\n=================================================================\n";
             $charset = 'utf8mb4';
-            list($host,$db,$user,$pass) = include("servernameDB.php");
+            list($host,$db,$user,$pass) = include("connectionString.php");
             $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
         
             $options = [

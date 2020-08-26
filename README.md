@@ -10,7 +10,9 @@
 
 #### Database access
 
-File 'utilclassses/Sql.php' contains Sql::pdo(), which includes 'servernameDB.php'. This file has to be made, adding the required info.
+File 'utilclassses/Sql.php' contains Sql::pdo(), which includes 'connectionString.php'. This file has to be made, adding the required info.
+
+- connectionString.php
 ```php
 <?php
 // use as list($host,$db,$user,$pass) = include("databases.php");
