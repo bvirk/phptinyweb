@@ -1,31 +1,20 @@
-## phptinyweb  - simple php framework
-
-### Introduction
-
-phptinyweb is the most rudimentary framework to layout a collection of pages. The content is MariaDB database driven.
-This readme shall:
-
-- Introduce what the framework not in itself documents.
-- Rudimentary explain how code works, structured as pages with section and replicated in the framework
-
-http://domain is used as placeholder name for domain of the actual hosting.
-
+## phptinyweb  - page mechanism
 
 
 ### .htaccess, index.php, , global variables
  
-An url
+A request by url
 ```
 http://domain/huey/dewey/louie
 ```
-could, by use of this .htaccess file
+would, by use of this .htaccess file
 ```
 RewriteEngine on
 RewriteRule ^(\w+)/?$ ?pe0=$1
 RewriteRule ^(\w+)/(\w+)/?$ ?pe0=$1&pe1=$2
 RewriteRule ^(\w+)/(\w+)/(\w+)/?$ ?pe0=$1&pe1=$2&pe2=$3
 ```
-request index.php with the following get request parameters
+result in following get parameters.
 
 - $_GET['pe0']=huey
 - $_GET['pe1']=dewey
