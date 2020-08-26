@@ -30,7 +30,7 @@ An empty phptinyweb has only one page: dbedit. If a valid connectString.php to a
     http://domain/dbedit
 ```
 
-To  show some features, the source has 6 pages:
+To  show some features in an __not__ empty phptinyweb, the source has 6 pages:
 
 - dbedit
     - input form for pages data
