@@ -15,7 +15,7 @@ File 'utilclassses/Sql.php' contains Sql::pdo(), which includes 'connectionStrin
 - connectionString.php
 ```php
 <?php
-// use as list($host,$db,$user,$pass) = include("databases.php");
+// use as list($host,$db,$user,$pass) = include("connectionString.php");
 return [ '??'  // database hosting url
         ,'??'  // database name
         ,'??'  // user name
@@ -23,3 +23,6 @@ return [ '??'  // database hosting url
         ];
 ```
 
+|some
+|---
+|table
