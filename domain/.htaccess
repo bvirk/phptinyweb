@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^(\w+)/?$ ?pe0=$1
+RewriteRule ^(\w+)/(\w+)/?$ ?pe0=$1&pe1=$2
+RewriteRule ^(\w+)/(\w+)/(\w+)/?$ ?pe0=$1&pe1=$2&pe2=$3

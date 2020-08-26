@@ -1,0 +1,41 @@
+#page14 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+div[class|="imgpane"],div[class|="img"]  {
+    padding-top: 10px;
+    max-width: 45vw;
+    object-fit: contain;
+    margin-right: 10px;
+    float:left;
+
+} 
+
+div[class|="imgtext"] {
+    text-align: center;
+    font-weight: bold;
+}
+
+div[class|="sec"] {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.allFields {
+   clear:both;
+   margin-bottom: 200px;
+}

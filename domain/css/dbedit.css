@@ -1,0 +1,32 @@
+form {
+    display:inline;
+}
+button {
+    font-size: 1.6em;
+}
+.contenttextarea {
+    width: 60%;
+}
+
+
+.selectpage {
+    font-size: 1em;
+    width: 200px;
+}
+
+.dbchangebuttons  {
+    height: 170px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+
+.filechangebuttons {
+    border: 1px solid blue;
+    width: 400px;
+}
+
+.imgdiv {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+

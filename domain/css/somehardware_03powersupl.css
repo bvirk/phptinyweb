@@ -1,0 +1,31 @@
+#page14 {
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    font-weight: bold;
+}
+
+
+.tablesec-10 {
+    margin-left: 650px;
+    border: 3px solid grey;
+    padding: 10px;
+    margin-top: 20vh;
+    background-color: #ffcf0040;
+}
+
+
+.imgtext-60 {
+    background-color: #bc6f37;
+}
+
+
+td:nth-child(2),td:nth-child(3) {
+    text-align:right;
+}
+
+
+tr.text-64,tr.text-93 {
+    text-decoration:underline;
+}
+

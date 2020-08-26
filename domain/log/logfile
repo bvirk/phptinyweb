@@ -1,0 +1,1114 @@
+25 14:27:52 select `id`,`title` from page where name='somehardware'
+25 14:27:52 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+25 14:27:52 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+25 14:27:52 jumpung to function eee1005
+25 14:27:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+25 14:27:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+25 14:27:52 eee1005($sec)
+25 14:27:52 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+25 14:27:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+25 14:27:52 eee1005($sec)
+25 14:27:52 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+25 14:27:52 jumpung to function eee900
+25 14:27:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+25 14:27:52 jumpung to function powersupl
+25 14:27:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+25 14:27:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+25 14:27:52 jumpung to function network
+25 14:27:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+25 14:28:50 select `id`,`title` from page where name='somehardware'
+25 14:28:50 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+25 14:28:50 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+25 14:28:50 jumpung to function eee1005
+25 14:28:50 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+25 14:28:50 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+25 14:28:50 eee1005($sec)
+25 14:28:50 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+25 14:28:50 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+25 14:28:50 eee1005($sec)
+25 14:28:50 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+25 14:28:50 jumpung to function eee900
+25 14:28:50 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+25 14:28:50 jumpung to function powersupl
+25 14:28:50 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+25 14:28:50 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+25 14:28:50 jumpung to function network
+25 14:28:50 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+25 23:45:25 select `id`,`title` from page where name='dbedit'
+25 23:45:25 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:45:32 select `id`,`title` from page where name='dbedit'
+25 23:45:32 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:46:44 select count(*) as count from page where `name`='bvirk'
+25 23:46:44 insert into page(`name`) values('bvirk')
+25 23:46:44 select count(*) as count from sec where `name`='ombenny'
+25 23:46:44 insert into sec(`name`) values('ombenny')
+25 23:46:44 select id from page where name='bvirk'
+25 23:46:44 select id from sec where name='ombenny'
+25 23:46:44 init(
+25 23:46:44 select count(*) as count from site where pageid='15' and secid='12'
+25 23:46:44 insert into site(`content`,`pageid`,`secid`) values('new record','15','12')
+25 23:46:45 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='15' and secid='12' order by site.id
+25 23:46:45 select `id`,`title` from page where name='dbedit'
+25 23:46:45 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:47:32 updatePost
+25 23:47:32 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '94',
+  'submit' => 'add',
+  'content' => 'Problemmet med at bringe sig selv i fokus er man meget gerne vil se sig selv opfylde roller. Man lyver og lider, i den udstrækning man selv ved at man taler usant.',
+)
+25 23:47:32 listidpos()
+25 23:47:32 writeDB()
+25 23:47:32 select count(*) as count from site where `id`='94'
+25 23:47:32 update site set `content`='Problemmet med at bringe sig selv i fokus er man meget gerne vil se sig selv opfylde roller. Man lyver og lider, i den udstrækning man selv ved at man taler usant.',`pic`='' where `id`='94'
+25 23:47:32 select count(*) as count from page where `id`='15'
+25 23:47:32 update page set `title`='' where `id`='15'
+25 23:47:32 select count(*) as count from sec where `id`='12'
+25 23:47:32 update sec set `title`='' where `id`='12'
+25 23:47:32 addAndGotolast()
+25 23:47:32 insert into site(`content`,`pageid`,`secid`) values('5f4586f4c1646','15','12')
+25 23:47:32 select id from site where content='5f4586f4c1646'
+25 23:47:32 listidpos()
+25 23:47:32 select `id`,`title` from page where name='dbedit'
+25 23:47:32 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:48:27 updatePost
+25 23:48:27 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '1',
+  'siteIdList' => '94+95',
+  'submit' => 'add',
+  'content' => 'Det er tidsspilde, ukreativt og handlingslammende at eksponere en fortælling om sig selv.',
+)
+25 23:48:27 listidpos()
+25 23:48:27 writeDB()
+25 23:48:27 select count(*) as count from site where `id`='95'
+25 23:48:27 update site set `content`='Det er tidsspilde, ukreativt og handlingslammende at eksponere en fortælling om sig selv.',`pic`='' where `id`='95'
+25 23:48:28 select count(*) as count from page where `id`='15'
+25 23:48:28 update page set `title`='' where `id`='15'
+25 23:48:28 select count(*) as count from sec where `id`='12'
+25 23:48:28 update sec set `title`='' where `id`='12'
+25 23:48:28 addAndGotolast()
+25 23:48:28 insert into site(`content`,`pageid`,`secid`) values('5f45872c27b90','15','12')
+25 23:48:28 select id from site where content='5f45872c27b90'
+25 23:48:28 listidpos()
+25 23:48:28 select `id`,`title` from page where name='dbedit'
+25 23:48:28 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:48:55 updatePost
+25 23:48:55 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '2',
+  'siteIdList' => '94+95+96',
+  'submit' => 'add',
+  'content' => 'Den samme løgnhistorie kan fint fortælles af andre, og bliver det hele tiden på en vis normsat måde.',
+)
+25 23:48:55 listidpos()
+25 23:48:55 writeDB()
+25 23:48:55 select count(*) as count from site where `id`='96'
+25 23:48:55 update site set `content`='Den samme løgnhistorie kan fint fortælles af andre, og bliver det hele tiden på en vis normsat måde.',`pic`='' where `id`='96'
+25 23:48:55 select count(*) as count from page where `id`='15'
+25 23:48:55 update page set `title`='' where `id`='15'
+25 23:48:55 select count(*) as count from sec where `id`='12'
+25 23:48:55 update sec set `title`='' where `id`='12'
+25 23:48:55 addAndGotolast()
+25 23:48:55 insert into site(`content`,`pageid`,`secid`) values('5f458747d5fcb','15','12')
+25 23:48:55 select id from site where content='5f458747d5fcb'
+25 23:48:55 listidpos()
+25 23:48:55 select `id`,`title` from page where name='dbedit'
+25 23:48:55 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:49:41 updatePost
+25 23:49:41 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '3',
+  'siteIdList' => '94+95+96+97',
+  'submit' => 'add',
+  'content' => 'Måden er objektivisering skjult bag positiv legende opbygning - specielt afdøde nyder gunst deraf, men også alle andre som er på afstand af at profitere og interaggere med løgnen. Prøv at smage på sandheden i dr.dk\'s dokumentarer om kendte danskere, med viden fra Peter Øvig Knudsens informationer om samme.',
+)
+25 23:49:41 listidpos()
+25 23:49:41 writeDB()
+25 23:49:41 select count(*) as count from site where `id`='97'
+25 23:49:41 update site set `content`='Måden er objektivisering skjult bag positiv legende opbygning - specielt afdøde nyder gunst deraf, men også alle andre som er på afstand af at profitere og interaggere med løgnen. Prøv at smage på sandheden i dr.dk's dokumentarer om kendte danskere, med viden fra Peter Øvig Knudsens informationer om samme.',`pic`='' where `id`='97'
+25 23:49:41 select count(*) as count from page where `id`='15'
+25 23:49:41 update page set `title`='' where `id`='15'
+25 23:49:41 select count(*) as count from sec where `id`='12'
+25 23:49:41 update sec set `title`='' where `id`='12'
+25 23:49:41 addAndGotolast()
+25 23:49:41 insert into site(`content`,`pageid`,`secid`) values('5f4587753eab3','15','12')
+25 23:49:41 select id from site where content='5f4587753eab3'
+25 23:49:41 listidpos()
+25 23:49:41 select `id`,`title` from page where name='dbedit'
+25 23:49:41 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:49:54 updatePost
+25 23:49:54 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '4',
+  'siteIdList' => '94+95+96+97+98',
+  'submit' => 'add',
+  'content' => 'et slet ikke historien der betyder noget, men fortællingens sociale rolle.',
+)
+25 23:49:54 listidpos()
+25 23:49:54 writeDB()
+25 23:49:54 select count(*) as count from site where `id`='98'
+25 23:49:54 update site set `content`='et slet ikke historien der betyder noget, men fortællingens sociale rolle.',`pic`='' where `id`='98'
+25 23:49:55 select count(*) as count from page where `id`='15'
+25 23:49:55 update page set `title`='' where `id`='15'
+25 23:49:55 select count(*) as count from sec where `id`='12'
+25 23:49:55 update sec set `title`='' where `id`='12'
+25 23:49:55 addAndGotolast()
+25 23:49:55 insert into site(`content`,`pageid`,`secid`) values('5f458783248e8','15','12')
+25 23:49:55 select id from site where content='5f458783248e8'
+25 23:49:55 listidpos()
+25 23:49:55 select `id`,`title` from page where name='dbedit'
+25 23:49:55 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:50:30 updatePost
+25 23:50:30 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '5',
+  'siteIdList' => '94+95+96+97+98+99',
+  'submit' => 'add',
+  'content' => 'g så vi tilbage ved det umulige i at beskrive sig selv, kvalmen over lufkastellets fremmedgørende løgnagtighed.',
+)
+25 23:50:30 listidpos()
+25 23:50:30 writeDB()
+25 23:50:30 select count(*) as count from site where `id`='99'
+25 23:50:30 update site set `content`='g så vi tilbage ved det umulige i at beskrive sig selv, kvalmen over lufkastellets fremmedgørende løgnagtighed.',`pic`='' where `id`='99'
+25 23:50:30 select count(*) as count from page where `id`='15'
+25 23:50:30 update page set `title`='' where `id`='15'
+25 23:50:30 select count(*) as count from sec where `id`='12'
+25 23:50:30 update sec set `title`='' where `id`='12'
+25 23:50:30 addAndGotolast()
+25 23:50:30 insert into site(`content`,`pageid`,`secid`) values('5f4587a6f08e4','15','12')
+25 23:50:31 select id from site where content='5f4587a6f08e4'
+25 23:50:31 listidpos()
+25 23:50:31 select `id`,`title` from page where name='dbedit'
+25 23:50:31 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:50:47 updatePost
+25 23:50:47 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '6',
+  'siteIdList' => '94+95+96+97+98+99+100',
+  'submit' => 'add',
+  'content' => 'DNA forskningenen beviser hvad der før kun har været fin medmenneskelig ligeværd - at vi alle først og fremmest er unikke.',
+)
+25 23:50:47 listidpos()
+25 23:50:47 writeDB()
+25 23:50:47 select count(*) as count from site where `id`='100'
+25 23:50:47 update site set `content`='DNA forskningenen beviser hvad der før kun har været fin medmenneskelig ligeværd - at vi alle først og fremmest er unikke.',`pic`='' where `id`='100'
+25 23:50:47 select count(*) as count from page where `id`='15'
+25 23:50:47 update page set `title`='' where `id`='15'
+25 23:50:47 select count(*) as count from sec where `id`='12'
+25 23:50:47 update sec set `title`='' where `id`='12'
+25 23:50:47 addAndGotolast()
+25 23:50:47 insert into site(`content`,`pageid`,`secid`) values('5f4587b7d08aa','15','12')
+25 23:50:47 select id from site where content='5f4587b7d08aa'
+25 23:50:48 listidpos()
+25 23:50:48 select `id`,`title` from page where name='dbedit'
+25 23:50:48 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:51:00 updatePost
+25 23:51:00 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '7',
+  'siteIdList' => '94+95+96+97+98+99+100+101',
+  'submit' => 'send',
+  'content' => 'Engang, med ild i brændeovnen, efter at have været hensat af Elena Ferrantes \'Min geniale veninde\', fandt jeg min gamle karakterbøger frem. Der var papirer helt tilbage til tidlig skolealder. Med vis agtelse så jeg for mig, hvordan flere skolelærere nogle gange årligt brugte deres liv på at vurdere os elevers formåen. En vis undren huserede mens jeg trak nydelsen ud ved at fodre brændeovnen side for side, en undren over at man skulle nå sit halvtre-sinds-tyvende år før den ide opstod.',
+)
+25 23:51:00 listidpos()
+25 23:51:00 writeDB()
+25 23:51:00 select count(*) as count from site where `id`='101'
+25 23:51:00 update site set `content`='Engang, med ild i brændeovnen, efter at have været hensat af Elena Ferrantes 'Min geniale veninde', fandt jeg min gamle karakterbøger frem. Der var papirer helt tilbage til tidlig skolealder. Med vis agtelse så jeg for mig, hvordan flere skolelærere nogle gange årligt brugte deres liv på at vurdere os elevers formåen. En vis undren huserede mens jeg trak nydelsen ud ved at fodre brændeovnen side for side, en undren over at man skulle nå sit halvtre-sinds-tyvende år før den ide opstod.',`pic`='' where `id`='101'
+25 23:51:00 select count(*) as count from page where `id`='15'
+25 23:51:00 update page set `title`='' where `id`='15'
+25 23:51:00 select count(*) as count from sec where `id`='12'
+25 23:51:00 update sec set `title`='' where `id`='12'
+25 23:51:00 select `id`,`title` from page where name='dbedit'
+25 23:51:00 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:54:28 updatePost
+25 23:54:28 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '7',
+  'siteIdList' => '94+95+96+97+98+99+100+101',
+  'submit' => 'send',
+  'content' => 'Engang, med ild i brændeovnen, efter at have været hensat af Elena Ferrantes \'Min geniale veninde\', fandt jeg min gamle karakterbøger frem. Der var papirer helt tilbage til tidlig skolealder. Med vis agtelse så jeg for mig, hvordan flere skolelærere nogle gange årligt brugte deres liv på at vurdere os elevers formåen. En vis undren huserede mens jeg trak nydelsen ud ved at fodre brændeovnen side for side, en undren over at man skulle nå sit halvtre-sinds-tyvende år før den ide opstod.',
+)
+25 23:54:28 listidpos()
+25 23:54:28 writeDB()
+25 23:54:28 select count(*) as count from site where `id`='101'
+25 23:54:28 update site set `content`='Engang, med ild i brændeovnen, efter at have været hensat af Elena Ferrantes 'Min geniale veninde', fandt jeg min gamle karakterbøger frem. Der var papirer helt tilbage til tidlig skolealder. Med vis agtelse så jeg for mig, hvordan flere skolelærere nogle gange årligt brugte deres liv på at vurdere os elevers formåen. En vis undren huserede mens jeg trak nydelsen ud ved at fodre brændeovnen side for side, en undren over at man skulle nå sit halvtre-sinds-tyvende år før den ide opstod.',`pic`='' where `id`='101'
+25 23:54:28 select count(*) as count from page where `id`='15'
+25 23:54:28 update page set `title`='' where `id`='15'
+25 23:54:28 select count(*) as count from sec where `id`='12'
+25 23:54:28 update sec set `title`='' where `id`='12'
+25 23:54:28 select `id`,`title` from page where name='dbedit'
+25 23:54:28 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+25 23:54:33 select `id`,`title` from page where name='bvirk'
+25 23:54:33 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+25 23:54:33 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' and sec.id='12' order by site.id
+25 23:54:33 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+25 23:54:33 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' and sec.id='12' order by site.id
+25 23:58:28 select `id`,`title` from page where name='bvirk'
+25 23:58:28 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+25 23:58:28 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+25 23:58:28 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' and sec.id='12' order by site.id
+25 23:59:59 select `id`,`title` from page where name='bvirk'
+25 23:59:59 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+25 23:59:59 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+25 23:59:59 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' and sec.id='12' order by site.id
+26 00:01:31 select `id`,`title` from page where name='bvirk'
+26 00:01:31 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+26 00:01:31 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+26 00:01:31 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' and sec.id='12' order by site.id
+26 06:42:43 select `id`,`title` from page where name='bvirk'
+26 06:42:43 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+26 06:42:43 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' order by sec.id
+26 06:42:43 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='bvirk' and sec.id='12' order by site.id
+26 08:00:03 select `id`,`title` from page where name='dbedit'
+26 08:00:03 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:10 select `id`,`title` from page where name='dbedit'
+26 08:00:10 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:29 select count(*) as count from page where `name`='bvirk'
+26 08:00:29 select count(*) as count from sec where `name`='ombenny'
+26 08:00:29 select id from page where name='bvirk'
+26 08:00:29 select id from sec where name='ombenny'
+26 08:00:29 init(
+26 08:00:29 select count(*) as count from site where pageid='15' and secid='12'
+26 08:00:29 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='15' and secid='12' order by site.id
+26 08:00:29 select `id`,`title` from page where name='dbedit'
+26 08:00:29 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:36 updatePost
+26 08:00:36 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '94+95+96+97+98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'Problemmet med at bringe sig selv i fokus er man meget gerne vil se sig selv opfylde roller. Man lyver og lider, i den udstrækning man selv ved at man taler usant.',
+)
+26 08:00:37 listidpos()
+26 08:00:37 removeCurrent()
+26 08:00:37 select secid from site where id='94'
+26 08:00:37 delete from site where id='94'
+26 08:00:37 listidpos()
+26 08:00:37 select `content`,`pic`,`page`.`title` as `pagetitle`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where site.id='95'
+26 08:00:37 readDB
+26 08:00:37 array (
+  'siteid' => '94',
+  'pic' => NULL,
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '95+96+97+98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'Det er tidsspilde, ukreativt og handlingslammende at eksponere en fortælling om sig selv.',
+)
+26 08:00:37 select `id`,`title` from page where name='dbedit'
+26 08:00:37 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:45 updatePost
+26 08:00:45 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '95+96+97+98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'Det er tidsspilde, ukreativt og handlingslammende at eksponere en fortælling om sig selv.',
+)
+26 08:00:45 listidpos()
+26 08:00:45 removeCurrent()
+26 08:00:45 select secid from site where id='95'
+26 08:00:45 delete from site where id='95'
+26 08:00:45 listidpos()
+26 08:00:45 select `content`,`pic`,`page`.`title` as `pagetitle`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where site.id='96'
+26 08:00:45 readDB
+26 08:00:45 array (
+  'siteid' => '94',
+  'pic' => NULL,
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '96+97+98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'Den samme løgnhistorie kan fint fortælles af andre, og bliver det hele tiden på en vis normsat måde.',
+)
+26 08:00:45 select `id`,`title` from page where name='dbedit'
+26 08:00:45 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:47 updatePost
+26 08:00:47 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '96+97+98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'Den samme løgnhistorie kan fint fortælles af andre, og bliver det hele tiden på en vis normsat måde.',
+)
+26 08:00:47 listidpos()
+26 08:00:47 removeCurrent()
+26 08:00:47 select secid from site where id='96'
+26 08:00:47 delete from site where id='96'
+26 08:00:47 listidpos()
+26 08:00:47 select `content`,`pic`,`page`.`title` as `pagetitle`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where site.id='97'
+26 08:00:47 readDB
+26 08:00:47 array (
+  'siteid' => '94',
+  'pic' => NULL,
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '97+98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'Måden er objektivisering skjult bag positiv legende opbygning - specielt afdøde nyder gunst deraf, men også alle andre som er på afstand af at profitere og interaggere med løgnen. Prøv at smage på sandheden i dr.dk\'s dokumentarer om kendte danskere, med viden fra Peter Øvig Knudsens informationer om samme.',
+)
+26 08:00:47 select `id`,`title` from page where name='dbedit'
+26 08:00:47 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:49 updatePost
+26 08:00:49 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '97+98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'Måden er objektivisering skjult bag positiv legende opbygning - specielt afdøde nyder gunst deraf, men også alle andre som er på afstand af at profitere og interaggere med løgnen. Prøv at smage på sandheden i dr.dk\'s dokumentarer om kendte danskere, med viden fra Peter Øvig Knudsens informationer om samme.',
+)
+26 08:00:49 listidpos()
+26 08:00:49 removeCurrent()
+26 08:00:49 select secid from site where id='97'
+26 08:00:49 delete from site where id='97'
+26 08:00:49 listidpos()
+26 08:00:49 select `content`,`pic`,`page`.`title` as `pagetitle`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where site.id='98'
+26 08:00:49 readDB
+26 08:00:49 array (
+  'siteid' => '94',
+  'pic' => NULL,
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'et slet ikke historien der betyder noget, men fortællingens sociale rolle.',
+)
+26 08:00:49 select `id`,`title` from page where name='dbedit'
+26 08:00:49 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:51 updatePost
+26 08:00:51 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '98+99+100+101',
+  'submit' => 'remove',
+  'content' => 'et slet ikke historien der betyder noget, men fortællingens sociale rolle.',
+)
+26 08:00:51 listidpos()
+26 08:00:51 removeCurrent()
+26 08:00:51 select secid from site where id='98'
+26 08:00:51 delete from site where id='98'
+26 08:00:51 listidpos()
+26 08:00:51 select `content`,`pic`,`page`.`title` as `pagetitle`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where site.id='99'
+26 08:00:51 readDB
+26 08:00:51 array (
+  'siteid' => '94',
+  'pic' => NULL,
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '99+100+101',
+  'submit' => 'remove',
+  'content' => 'g så vi tilbage ved det umulige i at beskrive sig selv, kvalmen over lufkastellets fremmedgørende løgnagtighed.',
+)
+26 08:00:51 select `id`,`title` from page where name='dbedit'
+26 08:00:51 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:53 updatePost
+26 08:00:53 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '99+100+101',
+  'submit' => 'remove',
+  'content' => 'g så vi tilbage ved det umulige i at beskrive sig selv, kvalmen over lufkastellets fremmedgørende løgnagtighed.',
+)
+26 08:00:53 listidpos()
+26 08:00:53 removeCurrent()
+26 08:00:53 select secid from site where id='99'
+26 08:00:53 delete from site where id='99'
+26 08:00:53 listidpos()
+26 08:00:53 select `content`,`pic`,`page`.`title` as `pagetitle`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where site.id='100'
+26 08:00:53 readDB
+26 08:00:53 array (
+  'siteid' => '94',
+  'pic' => NULL,
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '100+101',
+  'submit' => 'remove',
+  'content' => 'DNA forskningenen beviser hvad der før kun har været fin medmenneskelig ligeværd - at vi alle først og fremmest er unikke.',
+)
+26 08:00:53 select `id`,`title` from page where name='dbedit'
+26 08:00:53 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:55 updatePost
+26 08:00:55 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '100+101',
+  'submit' => 'remove',
+  'content' => 'DNA forskningenen beviser hvad der før kun har været fin medmenneskelig ligeværd - at vi alle først og fremmest er unikke.',
+)
+26 08:00:55 listidpos()
+26 08:00:55 removeCurrent()
+26 08:00:55 select secid from site where id='100'
+26 08:00:55 delete from site where id='100'
+26 08:00:55 listidpos()
+26 08:00:55 select `content`,`pic`,`page`.`title` as `pagetitle`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where site.id='101'
+26 08:00:55 readDB
+26 08:00:55 array (
+  'siteid' => '94',
+  'pic' => NULL,
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '101',
+  'submit' => 'remove',
+  'content' => 'Engang, med ild i brændeovnen, efter at have været hensat af Elena Ferrantes \'Min geniale veninde\', fandt jeg min gamle karakterbøger frem. Der var papirer helt tilbage til tidlig skolealder. Med vis agtelse så jeg for mig, hvordan flere skolelærere nogle gange årligt brugte deres liv på at vurdere os elevers formåen. En vis undren huserede mens jeg trak nydelsen ud ved at fodre brændeovnen side for side, en undren over at man skulle nå sit halvtre-sinds-tyvende år før den ide opstod.',
+)
+26 08:00:55 select `id`,`title` from page where name='dbedit'
+26 08:00:55 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:00:56 updatePost
+26 08:00:56 array (
+  'siteid' => '94',
+  'pic' => '',
+  'pagename' => 'bvirk',
+  'pagetitle' => '',
+  'secname' => 'ombenny',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '101',
+  'submit' => 'remove',
+  'content' => 'Engang, med ild i brændeovnen, efter at have været hensat af Elena Ferrantes \'Min geniale veninde\', fandt jeg min gamle karakterbøger frem. Der var papirer helt tilbage til tidlig skolealder. Med vis agtelse så jeg for mig, hvordan flere skolelærere nogle gange årligt brugte deres liv på at vurdere os elevers formåen. En vis undren huserede mens jeg trak nydelsen ud ved at fodre brændeovnen side for side, en undren over at man skulle nå sit halvtre-sinds-tyvende år før den ide opstod.',
+)
+26 08:00:56 listidpos()
+26 08:00:56 removeCurrent()
+26 08:00:56 select secid from site where id='101'
+26 08:00:56 delete from site where id='101'
+26 08:00:56 select count(*) as count from site where secid='12'
+26 08:00:56 delete from sec where name='ombenny'
+26 08:00:56 renaming 0ombenny.css 0ombenny.css
+26 08:00:56 select `id`,`title` from page where name='dbedit'
+26 08:00:56 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:04:37 select `id`,`title` from page where name='dbedit'
+26 08:04:37 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:05:52 select `id`,`title` from page where name='dbedit'
+26 08:05:52 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:06:11 select count(*) as count from page where `name`='somehardware'
+26 08:06:11 select count(*) as count from sec where `name`='eee1005'
+26 08:06:11 select id from page where name='somehardware'
+26 08:06:11 select id from sec where name='eee1005'
+26 08:06:12 init(
+26 08:06:12 select count(*) as count from site where pageid='14' and secid='7'
+26 08:06:12 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='14' and secid='7' order by site.id
+26 08:06:12 select `id`,`title` from page where name='dbedit'
+26 08:06:12 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:06:21 select `id`,`title` from page where name='somehardware'
+26 08:06:21 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:06:21 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:06:21 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:06:21 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 08:06:21 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:06:21 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+26 08:06:36 select `id`,`title` from page where name='somehardware'
+26 08:06:36 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:06:36 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:06:36 jumpung to function eee1005
+26 08:06:36 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:06:36 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:06:36 eee1005($sec)
+26 08:06:36 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:06:36 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:06:36 eee1005($sec)
+26 08:06:36 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:06:36 jumpung to function eee900
+26 08:06:36 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 08:06:36 jumpung to function powersupl
+26 08:06:36 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:06:36 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:06:36 jumpung to function network
+26 08:06:36 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+26 08:18:48 select `id`,`title` from page where name='somehardware'
+26 08:18:48 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:18:48 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:18:48 jumpung to function eee1005
+26 08:18:48 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:18:48 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:18:48 eee1005($sec)
+26 08:18:48 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:18:48 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:18:48 eee1005($sec)
+26 08:18:48 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:18:48 jumpung to function eee900
+26 08:18:48 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 08:18:48 jumpung to function powersupl
+26 08:18:48 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:18:48 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:18:48 jumpung to function network
+26 08:18:48 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+26 08:32:31 select `id`,`title` from page where name='dbedit'
+26 08:32:31 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:32:34 select `id`,`title` from page where name='dbedit'
+26 08:32:34 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:32:44 select count(*) as count from page where `name`='somehardware'
+26 08:32:44 select count(*) as count from sec where `name`='powersupl'
+26 08:32:44 select id from page where name='somehardware'
+26 08:32:44 select id from sec where name='powersupl'
+26 08:32:44 init(
+26 08:32:44 select count(*) as count from site where pageid='14' and secid='10'
+26 08:32:44 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='14' and secid='10' order by site.id
+26 08:32:44 select `id`,`title` from page where name='dbedit'
+26 08:32:44 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:41:08 init(
+26 08:41:08 select count(*) as count from site where pageid='14' and secid='10'
+26 08:41:08 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='14' and secid='10' order by site.id
+26 08:41:08 select `id`,`title` from page where name='dbedit'
+26 08:41:08 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:41:15 select `id`,`title` from page where name='somehardware'
+26 08:41:15 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:41:15 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:41:15 jumpung to function eee1005
+26 08:41:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:41:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:41:15 eee1005($sec)
+26 08:41:15 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:41:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:41:15 eee1005($sec)
+26 08:41:15 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:41:15 jumpung to function eee900
+26 08:41:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 08:41:15 jumpung to function powersupl
+26 08:41:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:41:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:41:15 jumpung to function network
+26 08:41:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+26 08:42:56 select `id`,`title` from page where name='dbedit'
+26 08:42:56 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:43:07 select `id`,`title` from page where name='dbedit'
+26 08:43:07 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:43:41 select count(*) as count from page where `name`='removemee'
+26 08:43:41 insert into page(`name`) values('removemee')
+26 08:43:41 select count(*) as count from sec where `name`='removesec'
+26 08:43:41 insert into sec(`name`) values('removesec')
+26 08:43:41 select id from page where name='removemee'
+26 08:43:41 select id from sec where name='removesec'
+26 08:43:42 init(
+26 08:43:42 select count(*) as count from site where pageid='16' and secid='13'
+26 08:43:42 insert into site(`content`,`pageid`,`secid`) values('new record','16','13')
+26 08:43:42 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='16' and secid='13' order by site.id
+26 08:43:42 select `id`,`title` from page where name='dbedit'
+26 08:43:42 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:44:36 init(
+26 08:44:36 select count(*) as count from site where pageid='16' and secid='13'
+26 08:44:36 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='16' and secid='13' order by site.id
+26 08:44:36 select `id`,`title` from page where name='dbedit'
+26 08:44:36 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:45:47 init(
+26 08:45:47 select count(*) as count from site where pageid='16' and secid='13'
+26 08:45:47 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='16' and secid='13' order by site.id
+26 08:45:47 select `id`,`title` from page where name='dbedit'
+26 08:45:47 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:45:52 select `id`,`title` from page where name='removemee'
+26 08:45:52 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:45:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' and sec.id='13' order by site.id
+26 08:45:52 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:45:52 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' and sec.id='13' order by site.id
+26 08:56:25 select `id`,`title` from page where name='removemee'
+26 08:56:25 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:56:25 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:56:25 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' and sec.id='13' order by site.id
+26 08:56:51 select `id`,`title` from page where name='removemee'
+26 08:56:51 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:56:51 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:56:51 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' and sec.id='13' order by site.id
+26 08:57:05 init(
+26 08:57:05 select count(*) as count from site where pageid='14' and secid='10'
+26 08:57:05 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='14' and secid='10' order by site.id
+26 08:57:05 select `id`,`title` from page where name='dbedit'
+26 08:57:05 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:57:09 select `id`,`title` from page where name='somehardware'
+26 08:57:09 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:57:09 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 08:57:09 jumpung to function eee1005
+26 08:57:09 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:57:09 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:57:09 eee1005($sec)
+26 08:57:09 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:57:09 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 08:57:09 eee1005($sec)
+26 08:57:09 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 08:57:09 jumpung to function eee900
+26 08:57:09 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 08:57:09 jumpung to function powersupl
+26 08:57:09 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:57:09 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 08:57:09 jumpung to function network
+26 08:57:09 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+26 08:57:38 select `id`,`title` from page where name='dbedit'
+26 08:57:38 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:57:45 select `id`,`title` from page where name='dbedit'
+26 08:57:45 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:58:05 select count(*) as count from page where `name`='removemee'
+26 08:58:05 select count(*) as count from sec where `name`='removesec'
+26 08:58:05 select id from page where name='removemee'
+26 08:58:05 select id from sec where name='removesec'
+26 08:58:05 init(
+26 08:58:05 select count(*) as count from site where pageid='16' and secid='13'
+26 08:58:05 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='16' and secid='13' order by site.id
+26 08:58:05 select `id`,`title` from page where name='dbedit'
+26 08:58:05 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 08:58:13 select `id`,`title` from page where name='removemee'
+26 08:58:13 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:58:13 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 08:58:13 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' and sec.id='13' order by site.id
+26 09:01:46 select `id`,`title` from page where name='dbedit'
+26 09:01:46 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 09:01:50 select `id`,`title` from page where name='dbedit'
+26 09:01:50 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 09:02:12 select count(*) as count from page where `name`='removemee'
+26 09:02:12 select `id`,`title` from page where name='dbedit'
+26 09:02:12 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 09:02:26 select count(*) as count from page where `name`='removemee'
+26 09:02:26 select count(*) as count from sec where `name`='removesec'
+26 09:02:26 select id from page where name='removemee'
+26 09:02:26 select id from sec where name='removesec'
+26 09:02:26 init(
+26 09:02:26 select count(*) as count from site where pageid='16' and secid='13'
+26 09:02:26 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='16' and secid='13' order by site.id
+26 09:02:26 select `id`,`title` from page where name='dbedit'
+26 09:02:26 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 09:02:31 select `id`,`title` from page where name='removemee'
+26 09:02:31 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 09:02:31 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 09:02:31 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' and sec.id='13' order by site.id
+26 09:21:52 select `id`,`title` from page where name='removemee'
+26 09:21:52 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 09:22:59 select `id`,`title` from page where name='removemee'
+26 09:22:59 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 09:23:43 select `id`,`title` from page where name='removemee'
+26 09:23:43 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 09:24:29 select `id`,`title` from page where name='removemee'
+26 09:24:29 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 09:24:56 select `id`,`title` from page where name='removemee'
+26 09:24:56 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='removemee' order by sec.id
+26 09:25:39 select `id`,`title` from page where name='dbedit'
+26 09:25:39 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 09:25:43 select `id`,`title` from page where name='dbedit'
+26 09:25:43 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 09:25:54 select count(*) as count from page where `name`='removemee'
+26 09:25:54 select count(*) as count from sec where `name`='removesec'
+26 09:25:54 select id from page where name='removemee'
+26 09:25:54 select id from sec where name='removesec'
+26 09:25:54 init(
+26 09:25:54 select count(*) as count from site where pageid='16' and secid='13'
+26 09:25:54 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='16' and secid='13' order by site.id
+26 09:25:54 select `id`,`title` from page where name='dbedit'
+26 09:25:54 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 09:26:01 updatePost
+26 09:26:01 array (
+  'siteid' => '102',
+  'pic' => '',
+  'pagename' => 'removemee',
+  'pagetitle' => '',
+  'secname' => 'removesec',
+  'sectitle' => '',
+  'curIdPos' => '0',
+  'siteIdList' => '102',
+  'submit' => 'remove',
+  'content' => 'new record',
+)
+26 09:26:01 listidpos()
+26 09:26:01 removeCurrent()
+26 09:26:01 select secid from site where id='102'
+26 09:26:01 delete from site where id='102'
+26 09:26:01 select count(*) as count from site where secid='13'
+26 09:26:01 delete from sec where name='removesec'
+26 09:26:01 renaming 0removesec.css 0removesec.css
+26 09:26:01 select `id`,`title` from page where name='dbedit'
+26 09:26:01 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 10:05:23 select `id`,`title` from page where name='dbedit'
+26 10:05:23 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 10:05:27 select `id`,`title` from page where name='dbedit'
+26 10:05:27 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 10:05:38 select count(*) as count from page where `name`='somehardware'
+26 10:05:38 select count(*) as count from sec where `name`='powersupl'
+26 10:05:38 select id from page where name='somehardware'
+26 10:05:38 select id from sec where name='powersupl'
+26 10:05:39 init(
+26 10:05:39 select count(*) as count from site where pageid='14' and secid='10'
+26 10:05:39 select `site`.`id` as `siteid`,`content`,`pic`,`page`.`name` as `pagename`,`page`.`title` as `pagetitle`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where pageid='14' and secid='10' order by site.id
+26 10:05:39 select `id`,`title` from page where name='dbedit'
+26 10:05:39 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='dbedit' order by sec.id
+26 10:05:42 select `id`,`title` from page where name='somehardware'
+26 10:05:42 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 10:05:42 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 10:05:42 jumpung to function eee1005
+26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 10:05:42 eee1005($sec)
+26 10:05:42 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 10:05:42 eee1005($sec)
+26 10:05:42 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 10:05:42 jumpung to function eee900
+26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 10:05:42 jumpung to function powersupl
+26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 10:05:42 jumpung to function network
+26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id

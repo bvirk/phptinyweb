@@ -1,0 +1,46 @@
+.sec-8 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.img-74 {
+    max-width: 45vw;
+    object-fit: contain;
+    margin-right: 10px;
+    float:left;
+}
+
+.imgtext-74 {
+    font-size: 1.1em;
+}
+
+div[class|="text"] {
+    padding-top: 10px;
+} 
+
+.text-77,.text-78 {
+    margin-top: 3vh;
+    padding: 10px;
+    border: 3px solid grey;
+    display:inline-block;
+    background-color: #ffcf0040;    
+}
+
+.text-77 {
+    margin-left: 4vw;
+
+}
+
+.text-78 {
+    margin-left: 8vw;
+}
+
+.text-77::first-line,.text-78::first-line {
+    font-weight: bold;
+    text-decoration: underline;
+}

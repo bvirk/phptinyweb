@@ -1,0 +1,28 @@
+button {
+    width: 30px;
+    height: 20px;
+    padding:0;
+    margin: 0;
+    background-color: white;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.texteditlink {
+    text-decoration: none;
+    color: inherit; 
+}
+    
+.texteditlink:visited {
+    color: inherit; 
+}
+
+.sectitleeditlink {
+    text-decoration: none;
+    color: inherit; 
+
+}
+
+.sectitleeditlink:visited {
+    color: inherit;
+}
