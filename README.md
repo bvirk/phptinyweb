@@ -47,7 +47,7 @@ To  show some features in an __not__ empty phptinyweb, the source has 6 pages:
     
 A MariaDB sql dump, 'mariaDBSampleExport.sql' has to be imported using phpmyadmin.   
 
-A global array, $navLinkOn, contains the pages
+A global array, $navLinkOn, contains the pages - an url requesting anything else redirects to first item.
 
 |index.php
 |---
