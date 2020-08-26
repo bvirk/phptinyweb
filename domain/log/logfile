@@ -1112,3 +1112,115 @@ BogoMIPS 3333
 26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
 26 10:05:42 jumpung to function network
 26 10:05:42 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+26 11:00:15 select `id`,`title` from page where name='somehardware'
+26 11:00:15 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 11:00:15 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 11:00:15 jumpung to function eee1005
+26 11:00:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 11:00:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 11:00:15 eee1005($sec)
+26 11:00:15 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 11:00:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 11:00:15 eee1005($sec)
+26 11:00:15 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 11:00:15 jumpung to function eee900
+26 11:00:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 11:00:15 jumpung to function powersupl
+26 11:00:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 11:00:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 11:00:15 jumpung to function network
+26 11:00:15 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id
+26 11:00:37 select `id`,`title` from page where name='somehardware'
+26 11:00:37 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 11:00:37 select distinct `sec`.`id` as `secid`,`sec`.`name` as `secname`,`sec`.`title` as `sectitle` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' order by sec.id
+26 11:00:37 jumpung to function eee1005
+26 11:00:37 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 11:00:37 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 11:00:37 eee1005($sec)
+26 11:00:37 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 11:00:37 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='7' order by site.id
+26 11:00:37 eee1005($sec)
+26 11:00:37 array (
+  0 => 
+  array (
+    'siteid' => 83,
+    'content' => 'Perhaps anno 2009 Asus Eee Pc. By installing ubuntu 18.04, a php 7.2 equipped server with all \'gemüse\' such as mysql, phpmyadmin and remote access-ability in form of ftp, ssh and nfs, was easy made.',
+    'pic' => 'eee1005.jpg',
+  ),
+  1 => 
+  array (
+    'siteid' => 84,
+    'content' => 'Linux
+Intel(R) Atom(TM) CPU N450   @ 1.66GHz
+24KiB L1 cache
+512KiB L2 cache
+BogoMIPS 3333
+1GiB DIMM DDR2 Synchronous 667 MHz (1.5 ns)
+160GB WDC WD1600BEVT-2',
+    'pic' => NULL,
+  ),
+)
+26 11:00:37 jumpung to function eee900
+26 11:00:37 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='8' order by site.id
+26 11:00:37 jumpung to function powersupl
+26 11:00:37 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 11:00:37 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='10' order by site.id
+26 11:00:37 jumpung to function network
+26 11:00:37 select `site`.`id` as `siteid`,`content`,`pic` from (site  inner join page on site.pageid = page.id) inner join sec on site.secid = sec.id where page.name='somehardware' and sec.id='11' order by site.id

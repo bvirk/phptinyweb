@@ -1,16 +1,11 @@
-### Two machines
+### Some setup in ubuntu 18.04 
 
-1. unbuntu 18.04
+- applications indicating usage 
     - apache 2
     - php 7.2
     - mariadb
     - sshd
     - vsftpd
-2. slackware 14.5
-    - jedit with plugin ftp
-    - firefox
- 
-### some setup
 
 #### Error reporting in php
 
@@ -38,10 +33,10 @@
     7654 ?         00:00:00 sshd
     24665 ?        00:00:00 sshd
 
-- delete possible old ~/.ssh/known_hosts
-- setup a connection
-
-    $ ssh-keygen
+- connecting mashine    
+    - delete possible old ~/.ssh/known_hosts
+    - setup a connection
+        - $ ssh-keygen
     
 #### ftp connction using vsftpd on ubuntu
 
