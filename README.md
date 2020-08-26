@@ -23,3 +23,43 @@ return [ '??'  // database hosting url
         ,'??'  // password
         ];
 ```
+#### Demo site
+
+An empty phptinyweb has only one page: dbedit. If a valid connectString.php to an existing database is made, but no tables exists, following creates all tables (empty tables)
+```
+    http://domain/dbedit
+```
+
+To  show some features, the source has 6 pages:
+
+- dbedit
+    - input form for pages data
+- func
+    - rediretion to description for func on php.net
+- class
+    - redirect to description for class on php.net
+- getpost
+    - shows how get and post interacts in editing
+- clrlog
+    - shows and clears log
+- somehardware
+    - demo page with pictures
+    
+A MariaDB sql dump, 'mariaDBSampleExport.sql' has to be imported using phpmyadmin.   
+
+A global array, $navLinkOn, contains the pages
+
+|index.php
+|---
+```php
+<?php
+$navLinkOn = [
+      'dbedit'          => ''
+     ,'func'            => ''
+     ,'class'           => '@class'
+     ,'getpost'         => ''
+     ,'somehardware'    => ''
+     ,'clrlog'          => ''
+    ];
+...
+```
