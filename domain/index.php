@@ -6,7 +6,6 @@ $navLinkOn = [
      ,'getpost' => ''
      ,'somehardware'    => ''
      ,'clrlog'    => ''
-     ,'removemee' => ''
     ];
 
 if (!isset($navLinkOn[$_GET['pe0'] ?? '']))

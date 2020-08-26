@@ -1,7 +1,7 @@
 ## phptinyweb  - page mechanism
 
 
-### .htaccess, index.php, , global variables
+### .htaccess, index.php, global variables and datamodel
  
 A request by url
 ```
@@ -23,6 +23,8 @@ result in following get parameters.
 $pe (short for path element) is a global variable.   
 
 For relevant selecting, a  global variabel - $navLinkOn - containg what $pe[0] could be
+|index.php
+|---
 
 ```php
 <?php
@@ -49,38 +51,3 @@ The id's of page and sec is foreign keys in
 
 - table site(id,content,pageid,secid,fileRef)
 
-the following 'pages' shall be a replication of pages in phptinyweb when fetched from this github project.
-
-
-## page dbedit, and database access to MariaDB
-
-Database connection demands a file, _servernameDB.php_ in document root. It has to be made manually after this scheme  
-```php
-<?php
-// use as list($host,$db,$user,$pass) = include("servernameDB.php");
-return [
-    'host1' => [   // one hostings $_SERVER['SERVER_NAME']
-         'mysqlhost1'
-        ,'databasename1'
-        ,'username1'
-        ,'password1'
-        ]
-    'host2' => [   // another hostings $_SERVER['SERVER_NAME']
-         'mysqlhost2'
-        ,'databasename2'
-        ,'username2'
-        ,'password2'
-        ]
-    ][$_SERVER['SERVER_NAME']];
-```
-Above _servernameDB.php_, has SERVER_NAME context. Tip: bailOut($_SERVER['SERVER_NAME']) as the first statement in a page's class method out() shows the current installations $_SERVER['SERVER_NAME'].
-
-Without arguments, page dbedit shows records count for the tables and if they not exists - _creates_ them. 
-
-__IMPORTANT__: In a new phptinyweb, dbedit without arguments creates all tables. This also initial ensures that credentials in servernameDB.php are right - if not a lot of, for the uninitiated, php error reporting muble bumble is the only result.
-
-## page getpost
-
-Mimics four values for page id and section id, and shows how get request can change and post reqest keeps at same section on same page. It illustrates above mapping of querystring to rewritten url. The keeping on same section of a page for post request is the princip for editing content content and fileRef in the page where data is edited.
-
-## page adding a page
