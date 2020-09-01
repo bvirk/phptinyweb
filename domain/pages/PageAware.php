@@ -35,6 +35,17 @@ class PageAware {
             if ($sec['secname'] === $secname)
                 return $sec;
     }
+    
+    function templateNames() {
+        $tNames = [];
+        foreach($this->sections() as $sec)
+            $tNames[] = ['name' => $this->templateName($sec['templateid']), 'secid' => $sec['secid']];
+        return $tNames;
+    }
+    
+    function templateName($templateid) {
+        return Sql::select(Template,'name',['id=?',[$templateid]])->fetch(\PDO::FETCH_NUM)[0];
+    }
 
     /**
      * returns array with keys:
@@ -44,7 +55,7 @@ class PageAware {
      */
     function sections() : array {
     global $pe;
-    return Sql::select(SiteJoinPageJoinSec,[ 'sec.id as secid','sec.name as secname','sec.title as sectitle']
+    return Sql::select(SiteJoinPageJoinSec,[ 'sec.id as secid','sec.name as secname','sec.title as sectitle','templateid']
                        ,['page.name=? order by sec.id',[$pe[0]]],true)->fetchAll();
     }
     
@@ -73,15 +84,19 @@ class PageAware {
         $addPageSelector=true;
         $secNum=1;
         foreach ($this->sections() as $sec) {
-            yield $this->cssFile($sec,$secNum++,$addPageSelector,$createLatest);
-            $addPageSelector=false;
+            if ($this->templateName($sec['templateid'])) {
+                yield $this->cssFile($sec,$secNum++,$addPageSelector,$createLatest);
+                $addPageSelector=false;
+            }
         }
     }
         
     function cssFile($sec,$secNum,$addPageSelector,$createLatest) {
         global $pe;
+        log("cssfile:sec: ",$sec);
         $secNumDigits = $secNum ? sprintf('%02d',$secNum) : '';
-        $cssFile = "css/$pe[0]_".$secNumDigits.$sec['secname'].".css";
+        $cssFileTemplate=$sec['secid'] ? $this->templateName($sec['templateid']):'';
+        $cssFile = "css/$pe[0]_$secNumDigits$cssFileTemplate.css";
         if (file_exists($cssFile) && !$createLatest)
             return $cssFile;
         $lines = $addPageSelector ? "#page".$this->pid()." {\n".$this->pageCSSDefaults() : "";
@@ -109,8 +124,8 @@ class PageAware {
         }
        if (!file_exists($cssFile))
            file_put_contents($cssFile,$lines);
-       elseif ($createLatest)
-           file_put_contents("css/$pe[0]_".$secNumDigits.$sec['secname']."latest.css");
+       elseif ($createLatest)   
+           file_put_contents("css/$pe[0]_{$cssFileTemplate}latest.css");
        return $cssFile;
     }
 
@@ -183,15 +198,15 @@ function defaultBody() {
     $pid=$page->pid();
     nodes("div",$page->title(),"id='page$pid'");
     foreach ($page->sections() as $sec) {
-        nodes("div",$sec['sectitle'],"id='sec".$sec['secid']."'");
+        nodes("div",$sec['sectitle'],"class='sec-".$sec['secid']."'");
         foreach ($page->recordsOfSections($sec['secid']) as $rec) {
             if ($rec['pic'] ?? false)
                 nodes("div",node
-                            ("div",["img",null,'src="/img/pages/'.$rec['pic'].'" width="150"'],'id="img'.$rec['siteid'].'"')
-                            ("div",$rec['content'],'id="imgtext'.$rec['siteid'].'"')
-                            ,'id="imgpane'.$rec['siteid'].'"');
+                            ("div",["img",null,'src="/img/pages/'.$rec['pic'].'" width="150"'],'class="img-'.$rec['siteid'].'"')
+                            ("div",$rec['content'],'class="imgtext-'.$rec['siteid'].'"')
+                            ,'class="imgpane-'.$rec['siteid'].'"');
             else
-                nodes("p",$rec['content'],"id='text".$rec['siteid']."'");
+                nodes("p",$rec['content'],"class='text-".$rec['siteid']."'");
         }
     }
 }

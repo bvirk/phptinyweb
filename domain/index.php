@@ -1,11 +1,12 @@
 <?php
 $navLinkOn = [
-      'dbedit'  => ''
-     ,'func'    => ''
-     ,'class'   => '@class'
-     ,'getpost' => ''
-     ,'somehardware'    => ''
-     ,'clrlog'    => ''
+      'bvirk'       => ''
+     //,'dbedit'      => ''
+     ,'func'        => ''
+     ,'class'       => '@class'
+     ,'getpost'     => ''
+     ,'somehardware'=> ''
+     //,'clrlog'      => ''
     ];
 
 if (!isset($navLinkOn[$_GET['pe0'] ?? '']))

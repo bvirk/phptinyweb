@@ -16,6 +16,7 @@ class HtmlGenerators {
     foreach($page->cssFiles() as $cssFile) 
         echo "<link rel='stylesheet' type='text/css' href='/$cssFile'>\n";
 ?>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="/js/common.js"></script>
 <?php if ($useFocusReload) { ?>
 <script>

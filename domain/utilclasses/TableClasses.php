@@ -4,6 +4,7 @@ namespace bvirk\utilclasses;
 use bvirk\tables\Site;
 use bvirk\tables\Page;
 use bvirk\tables\Sec;
+use bvirk\tables\Template;
 use bvirk\tables\UserAgent;
 use bvirk\tables\ReqLog;
 use bvirk\utilclasses\Sql;
@@ -13,12 +14,13 @@ define("Sec",Sec::t());
 define("Page",Page::t());
 define("UserAgent",UserAgent::t());
 define("ReqLog",ReqLog::t());
+define("Template",Template::t());
 define("SiteJoinPage",Site::t()->innerOne(Page::t()));
 define("SiteJoinPageJoinSec",Site::t()->innerOne(Page::t())->innerOne(Sec::t()));
 
 
 trait TableClasses { 
-    public $tableNames = [Site,Page,Sec,UserAgent,ReqLog];  
+    public $tableNames = [Site,Page,Sec,UserAgent,ReqLog,Template];  
     
     public function tableExists($tableName) {
         return [$this,$tableName]()->exists();
@@ -40,6 +42,7 @@ trait TableClasses {
     private function Page() { return new Page(); }
     private function UserAgent() { return new UserAgent(); }
     private function ReqLog() { return new ReqLog();  }
+    private function Template() { return new Template();  }
 
 }
 
