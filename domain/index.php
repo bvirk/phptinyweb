@@ -1,16 +1,23 @@
 <?php
 $navLinkOn = [
       'bvirk'       => ''
-     //,'dbedit'      => ''
+     ,'dbedit'      => ''
      ,'func'        => ''
      ,'class'       => '@class'
      ,'getpost'     => ''
      ,'somehardware'=> ''
-     //,'clrlog'      => ''
+     ,'clrlog'      => ''
+     ,'experiences' => ''
+     ,'slackadore'  => ''
+     ,'elektronik'  => ''
     ];
 
-if (!isset($navLinkOn[$_GET['pe0'] ?? '']))
-    header("Location: /".key($navLinkOn));
+if (!isset($navLinkOn[$_GET['pe0'] ?? '']) || $_GET['pe0'] === key($navLinkOn)) {
+    if ($_GET['pe0'] ?? 0)
+        header("Location: /");
+    $_GET['pe0']=key($navLinkOn);
+}
+    
 
 $pe = [$_GET['pe0'],$_GET['pe1'] ?? null ,$_GET['pe2'] ?? null ];
     

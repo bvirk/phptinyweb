@@ -1,0 +1,23 @@
+.sec-cjavaphp {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.sec-cjavaphp h2 a {
+    color: orange;
+    text-decoration:none;
+}
+.sec-cjavaphp h3 {
+    color: blue;
+}
+.sec-cjavaphp h4 {
+    color: green;
+}
+
+.page-experiences {
+    display:none;
+}
+
+.sectitle-cjavaphp {
+    display:none;
+}   

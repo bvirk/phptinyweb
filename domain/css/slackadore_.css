@@ -1,0 +1,18 @@
+.sec-adoreslack {
+        width: 70%;
+    margin-left: 15%;
+
+}
+
+.page-slackadore {
+    display:none;
+}
+
+.sectitle-adoreslack {
+    display:none;
+}
+
+.sec-adoreslack h3 {
+    color: blue;
+    text-decoration: underline;
+}

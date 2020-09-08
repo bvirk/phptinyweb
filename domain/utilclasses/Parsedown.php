@@ -13,6 +13,7 @@ namespace bvirk\utilclasses;
 #
 #
 
+
 class Parsedown
 {
     # ~
@@ -21,6 +22,11 @@ class Parsedown
 
     # ~
 
+    /*********
+     * $Parsedown = new Parsedown();
+     *
+     * echo $Parsedown->text('Hello _Parsedown_!');
+     */
     function text($text)
     {
         $Elements = $this->textElements($text);

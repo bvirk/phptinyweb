@@ -1,6 +1,8 @@
 <?php
 namespace bvirk\pages;
 use bvirk\utilclasses\Sql;
+use bvirk\utilclasses\Node;
+use bvirk\utilclasses\Parsedown;
 
 class PageAware {
     private $pid;
@@ -52,6 +54,7 @@ class PageAware {
      *  'secid'
      *  'secname'
      *  'sectitle'
+     *  'templateid'
      */
     function sections() : array {
     global $pe;
@@ -192,7 +195,6 @@ EOS;
 
 }
 
-
 function defaultBody() {
     global $pe,$page;
     $pid=$page->pid();
@@ -210,4 +212,36 @@ function defaultBody() {
         }
     }
 }
+
+/*****
+ * @param isMD : isMarkdowncontent
+ */
+function namedDefBody($isMD=false) {
+    global $pe,$page;
+    nodes("div",$page->title(),"class='page-$pe[0]'");
+    foreach ($page->sections() as $sec) {
+        $tName = $page->templateName($sec['templateid']);
+        nodes("div",$sec['sectitle'],"class='sectitle-$tName'");
+        Node::asChild([funcName('namedDefSection'),[$sec,$tName,$isMD]],"div","class='sec-$tName'" );
+    }
+}
+
+function namedDefSection($parm) {
+    global $page;
+    list($sec,$templateName,$isMD) = $parm;
+    if ($isMD)
+        $parsedown = new ParseDown();
+    foreach ($page->recordsOfSections($sec['secid']) as $rec) {
+        $content = $isMD ? $parsedown->text($rec['content']) : $rec['content'];
+        if ($rec['pic'] ?? false)
+            nodes("div",node
+                        ("div",["img",null,'src="/img/pages/'.$rec['pic'].'"'],"class='img-$templateName'")
+                        ("div",$content,"class='imgtext-$templateName'")
+                        ,"class='imgpane-$templateName'");
+        else
+            nodes("div",$content,"class='text-$templateName'");
+    }
+}
+        
+
 

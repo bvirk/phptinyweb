@@ -5,24 +5,26 @@ use bvirk\utilclasses\Node as n;
 use bvirk\utilclasses\CallDelegations as d;
 
 function test() {
-    global $page;
-    p($page->templateNames());
+    p(preg_match('/0000$/',"A0000"));
 }
             
 
 
 class Bvirk extends PageAware {
     
+    public $headLine = ['&#x1f9d1; Gerne ansat','&#x1f680; Synergi bidragende','&#x1f4de; 2856 9086'];
+    
     public function out() {
         global $pe;
         //bailOut(test());
         //Utils::reqLog();
-        d::delegateByGenerator('htmlheadbody',[$this->title(),false],[$this,'sectionTemplates']);
+        d::delegateByGenerator('htmlheadbody',[$this->title() . "|".implode(" - ",$this->headLine),false],[$this,'sectionTemplates']);
     }
     public function sectionTemplates() {
         nodes("a","&#128231;","href='#' id='email' class='screenshot' rel='/img/pages/rebus.png' title='above danish rebus spells my email address'");
         nodes("a",["img",null,"src='/img/pages/linkedin.png'"],"href='https://www.linkedin.com/in/benny-andersen-725a57197/'");
         nodes("a",["img",null,"src='/img/pages/github32.png'"],"href='https://github.com/bvirk'");
+        nodes("a",["img",null,"src='/img/pages/mec32.png'"],"href='/somehardware' rel='/img/pages/mec200.png' class='screenshot'");
         //foreach ($this->templateNames() as $secTmpl)        
         //    n::asChild([funcname($secTmpl['name']),$secTmpl],"div","class='section-".$secTmpl['name']."'");
         foreach ([
@@ -35,9 +37,16 @@ class Bvirk extends PageAware {
                 ,'handson'
                 ] as $sec)        
             n::asChild([funcname($sec),$sec],"div","class='section-$sec'");
-
+        nodes("div",["ul",node(headlist())],"class='headul'");
+        
     }
 }
+
+function headlist() {
+    global $page;
+    foreach ($page->headLine as $hl)
+        yield ["li",$hl,null];
+}    
 
 function elkamator($meName) {
 ?>
@@ -46,6 +55,7 @@ function elkamator($meName) {
         <img src="/img/pages/antex.png">
     </div>
     <div class='ul-<?php echo $meName;?>'>
+        <a href='/elektronik' id='link-elkamator'></a>
         <div >Elektronik amatør<br></div>
         <ul >
                  <li>komponenter
@@ -66,6 +76,7 @@ function operativ($meName) {
         <img src="/img/pages/arduinoMan.png">
     </div>
     <div class="ul-<?php echo $meName;?>">
+        <a href='/slackadore' id='link-operativ'></a>
         <div >Operativ systemer<br></div>
         <ul >
                  <li>linux
@@ -96,6 +107,7 @@ function lang($meName) {
         <img src="/img/pages/psource.png">
     </div>
     <div class="ul-<?php echo $meName;?>">
+        <a href='/experiences' id='link-lang'></a>
         <div >Programmingssprog<br></div>
         <ul >
                  <li>c / c++
