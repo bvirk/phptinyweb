@@ -26,7 +26,9 @@
 
 ---
 
+
 #old stuff
+
 ### Descriptions in:
 
 - [some php.ini, ssh,ftp](doc/someUbuntuSetup.md)
