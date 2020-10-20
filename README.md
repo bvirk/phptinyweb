@@ -1,6 +1,6 @@
 ## phptinyweb  - simple php framework
 
-... was a try to invent a framework prior haven seen any of those who rules. Having studied cakephp and codeignitor, it is not worth the effort doing anything besides listing those php technics used.
+... was a try to invent a framework prior haven seen any of those who rules. Having studied cakephp and codeignitor, it is not worth the effort doing anything besides listing headlines of php technics used.
 
 - Tables are classes -join using name mangling
 - Table classes contains the sql to create them - fixed builtin migration you can say
@@ -26,8 +26,7 @@
 
 ---
 
-
-#old stuff
+# Terminated project
 
 ### Descriptions in:
 
